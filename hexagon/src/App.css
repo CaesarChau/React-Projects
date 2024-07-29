@@ -1,0 +1,53 @@
+.nav {
+  display: flex;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.hexagon-logo {
+  width: 70px;
+  padding: 0.7rem;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  margin-left: auto;
+  padding-right: 2rem;
+}
+
+.nav-list-item {
+  padding-left: 2rem;
+}
+
+.home-content {
+  margin-top: 100px;
+}
+
+.home-hexagon-background {
+    width: 100%;
+}
+
+.hexgrid {
+  overflow: visible;
+  position: relative;
+  top: -500px;
+  left: -600px;
+}
+
+.hexagon:hover {
+  stroke-width: 1;
+}
+
+.bees-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 1px solid pink;
+}
+
+.bees-image {
+  width: 100px;
+}

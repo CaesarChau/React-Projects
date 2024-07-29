@@ -1,0 +1,148 @@
+.App {
+  background-color: #1c1d21;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  color: white;
+}
+
+/* ------------------------------------------------------ */
+
+.header {
+  height: 60px;
+  width: 100%;
+  border-bottom: solid 1px gray;
+  background-color: #1c1d21;
+  z-index: 1;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.header-link-icon {
+  height: 40px;
+  width: 40px;
+  margin: 10px;
+  border: none;
+}
+
+.twitch {
+  background-color: #c267ec;
+}
+
+.discord {
+  background-color: #5865f2;
+}
+
+/* ------------------------------------------------------ */
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sticky + .wrapper {
+  padding-top: 60px;
+}
+
+/* ------------------------------------------------------ */
+
+.sidebar {
+  height: 100vh;
+  width: 25%;
+  border-right: solid 1px;
+  border-color: gray;
+  position: sticky;
+  top: 0;
+  bottom: 0;
+}
+
+.sidebar-text {
+  font-size: 20px;
+  padding: 20px;
+  font-weight: bold;
+}
+
+.sidebar-text:hover {
+  background-color: #2c2d33;
+}
+
+/* ------------------------------------------------------ */
+
+.character {
+  display: flex;
+}
+
+/* ------------------------------------------------------ */
+
+.character-thumbnail-container {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.character-thumbnail {
+  height: 120px;
+  width: 100px;
+  overflow: hidden;
+  margin: 5px;
+}
+
+.character-thumbnail-icon {
+  aspect-ratio: 1;
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.character-thumbnail-text {
+  width: 100%;
+  text-align: center;
+}
+
+/* ------------------------------------------------------ */
+
+.character-info-panel {
+  width: 70%;
+  height: 400px;
+  border: solid pink 0px;
+  position: relative;
+}
+
+.character-info-panel-image {
+  height: 100%;
+  aspect-ratio: 9/16;
+  float: left;
+  padding-right: 20px;
+}
+
+.character-info-panel-content {
+  padding: 20px;
+}
+
+.character-info-panel-text {
+  padding-top: 10px;
+}
+
+.character-info-panel-name {
+  font-size: 3rem;
+}
+
+.character-info-panel-element {
+  width: 60px;
+  aspect-ratio: 1/1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 30px;
+}
+
+.character-info-panel-rarity {
+  height: 15px;
+  padding-top: 10px;
+}
